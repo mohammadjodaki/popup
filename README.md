@@ -7,7 +7,7 @@ You can see information about my project
 
 - Developed by mohammad jodaki
 
-- Created - 2024-06-19
+- Created - 2024-06-21
 
 - Technologies Used - Html , css , tailwind , javascript
 
