@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/9d6fbcc193.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="css/output.css">
+    <title>popup</title>
+</head>
+<body class="bg-fuchsia-700">
+    <div class="flex justify-center mt-64">
+        <button id="open" class="bg-green-600 text-2xl px-8 py-4 rounded-xl text-white">click me</button>
+    </div>
+<section class="w-full flex justify-center *:p-7">
+    <div id="pop" class="w-2/3 h-[450px] hidden md:w-1/2 bg-white rounded-xl -mt-52">
+        <div class="w-full flex justify-between mt-5">
+            <h2 class="text-xl md:text-3xl font-bold">Social network sharing</h2>
+            <span id="close" class="material-symbols-outlined cursor-pointer w-8 h-8 bg-zinc-300 rounded-full flex justify-center items-center">close</span>
+        </div>
+        <hr class="my-7">
+        <h3 class="text-xl font-bold">Share this link via</h3>
+        <div class="flex justify-evenly mt-8">
+            <a href="https://instagram.com/mohammad_jodaki_web"><i class="fa-brands fa-instagram text-4xl text-red-700 bg-white rounded-full"></i></a>
+            <a href="https://www.linkedin.com/in/mohammad-jodakian"><i class="fa-brands fa-linkedin text-4xl text-sky-700 bg-white rounded-full"></i></a>
+            <a href="https://github.com/mohammadjodaki"><i class="fa-brands fa-github text-4xl text-blue-900 bg-white rounded-full"></i></a>
+            <a href="#"><i class="fa-brands fa-telegram text-4xl text-blue-800 bg-white rounded-full"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook text-4xl text-blue-900 bg-white rounded-full"></i></a>
+        </div>
+        <h3 class="text-xl font-bold mt-11">Or copy link</h3>
+        <div class="flex mt-8">
+            <input id="box" class="border border-zinc-400 w-2/3 h-14 outline-none relative pl-20 font-bold" type="text" value="https://github.com/mohammadjodaki">
+            <i class="fa-solid fa-link text-2xl absolute p-3"></i>
+            <button id="copyButton" class="bg-fuchsia-700 px-7 py-3 text-xl text-white">copy</button>
+        </div>
+    </div>
+</section>
+<script src="js/script.js"></script>
+</body>
+</html>
