@@ -19,10 +19,9 @@ const close = document.querySelector('#close');
         pop.classList.add('hidden');
     });
 ///// copy text /////
-    document.getElementById('copyButton').addEventListener('click' , function(){
-        let inputbox=document.getElementById('box')
-        inputbox.select()
-        document.execCommand('copy')
-        let copyButton=document.getElementById('copyButton')
-        copyButton.innerText = "copied";
-    })
+    document.getElementById('copyButton').addEventListener('click', function(){
+        let inputbox = document.getElementById('box');
+        inputbox.select();
+        document.execCommand('copy');
+        this.innerText = "copied";
+    });
